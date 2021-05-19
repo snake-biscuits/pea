@@ -1,8 +1,8 @@
-# PEA - Python Electron App
+# PEA - Python Electron App (beta)
 Python CLI backend, Electron HTML frontend  
 
 `backend_cli.py -> main.js -> index.html -> pea.exe`  
-The backend stage can include Python & C libraries  
+The backend stage can include external Python & C libraries  
 The html stage can include other Node.js packages  
 
 
