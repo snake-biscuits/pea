@@ -1,0 +1,16 @@
+{
+  "name": "pea",
+  "version": "0.1.0",
+  "description": "Python-Electron hybrid App",
+  "main": "main.js",
+  "scripts": {
+      "start": "electron ./",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "snake-biscuits",
+  "license": "cc-by-sa-4.0",
+  "devDependencies": {
+    "electron": "^12.0.8"
+  }
+}
