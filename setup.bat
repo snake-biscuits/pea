@@ -1,8 +1,8 @@
-:: node.js setup
-npm init -y
-npm install electron --save-dev
-npm install electron-packager --save-dev
-:: python setup
+:: Get Node.js from: https://nodejs.org/en/download/
+:: Node.js setup (dependencies listed in package.json)
+npm install
+:: Get Python 3.9 from: https://www.python.org/downloads/windows/
+:: Python 3.9 setup (dependencies listed in requirements.txt)
 py -3.9 -m venv venv
 call venv/scripts/activate
 python -m pip install --upgrade pip
