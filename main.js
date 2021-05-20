@@ -3,7 +3,7 @@ const {app, BrowserWindow} = require("electron");
 
 function createWindow() {
     window = new BrowserWindow({width: 1280, height: 576});
-    window.loadFile("index.html");
+    window.loadFile("./app/app.html");
 
     /* make a call to backend_cli.py */
     /* NOTE: npm doesn't target the correct python version, defaults to 2.7 */

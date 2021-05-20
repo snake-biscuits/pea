@@ -1,7 +1,7 @@
 {
   "name": "pea",
   "version": "0.1.0",
-  "description": "Python-Electron hybrid App",
+  "description": "Python Electron Application",
   "main": "main.js",
   "scripts": {
     "start": "electron ./",
